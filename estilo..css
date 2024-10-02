@@ -1,0 +1,115 @@
+html {
+    box-sizing: auto;
+    font-size: 60.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/08/one-piece_0.jpg?tf=1200x1200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.velo-negro {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 305rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    background-color: rgb(141, 132, 108);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 8rem;
+    color: rgb(37, 37, 125);
+}
+
+nav {
+    margin: 3rem 0 8rem 0;
+    background-color: rgb(193, 146, 57);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 2rem;
+}
+
+nav a {
+    color: #333;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 60px;
+    transition: color 1s;
+}
+
+nav a:hover {
+    color: #ffbc36;
+    font-size: 30px;
+}
+
+.caja {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(108, 91, 62);
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+    height: 260rem;
+}
+
+.img {
+    
+    padding: 2 2 2 2;
+    margin: 2 2 2 2;
+    width: 300px;
+    height: 370px;
+    float: right;
+}
+
+.personaje {
+    border-radius: 1rem;
+    background-color: #8e2d2d;
+    margin: 2rem;
+    padding: 2rem;
+    float: right;
+}
+
+
+.personajes {
+    display: -moz-grid-group;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.personaje-nombre {
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pie {
+    background-color: rgb(114, 84, 6);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
